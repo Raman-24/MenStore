@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="UTF-8">
+<title>Javascript Validation</title> 
+<script type="text/javascript">
+function val()
+{
+var a=f1.t1.value;
+var c=f1.t3.value;
+
+if(a==""||c=="")
+ alert("Please enter information in the textboxes");
+else if(c.length<6)
+ alert("Password must be atleast 6 characters long");
+else
+ alert("Succesfully Done");
+}
+</script>
+
+</head> 
+<body style="background:url(shopping2.jpeg);">
+
+<form name="f1">
+<table border="2" bgcolor="#87bdd8" align="center" bordercolor="black">
+<tr>
+<th colspan="2">Login</th>
+
+
+</tr>
+
+<tr>
+<td bgcolor="#92a8d1" >Enter username</td>
+<td bgcolor="#92a8d1"><input type="text" name="t1" placeholder="username"></td>
+</tr>
+
+
+
+<tr>
+<td bgcolor="#92a8d1">Enter your password</td>
+<td bgcolor="#92a8d1"><input type="password" name="t3" placeholder="password"></td>
+</tr>
+
+<tr>
+<td align="center" bgcolor="#87bdd8"><input type="submit" value="submit" onclick="val()" ></td> 
+
+<td align="center" bgcolor="#87bdd8"><input type="reset" value="clear" ></td>
+</tr>
+<tr>
+<th colspan="2" bgcolor="#f7786b"><a href="Miniproject.html">Skip</a></th>
+</tr>
+<tr>
+<th colspan="2" bgcolor="#f7786b"><a href="event5.html">Register</a></th>
+</tr>
+
+</table>
+</form>
+</body> 
+</html>
